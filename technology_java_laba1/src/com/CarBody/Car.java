@@ -6,9 +6,10 @@ public class Car {
     private String mark;
     private ArrayList<Boody> bodies;
 
-    public Car (String mark){
+    public Car (String mark, Body b){
         this.mark = mark;
         bodies = new ArrayList<Boody>();
+        bodies.add(b);
     }
 
     public void setMark(String mark){
