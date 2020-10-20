@@ -1,7 +1,7 @@
 package com.CarBody;
 //    абстрактний клас Boody в середині якого ми оголошуємо клас  AllInformation
 public abstract class Boody {
-    private String VINnumber;
+    protected String VINnumber;
     BodyType body_type;
     private int year_production;
     private int width;
